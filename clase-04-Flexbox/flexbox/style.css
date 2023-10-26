@@ -1,0 +1,13 @@
+.container {
+    background-color: brown;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.item {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    margin: 20px;
+}

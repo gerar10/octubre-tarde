@@ -1,0 +1,49 @@
+body {
+    background-color: blanchedalmond;
+}
+
+p {
+    font-size: 25px;
+}
+
+div {
+    border: 2px solid red;
+    height: 50px;
+}
+
+/* POSITION */
+/* static */
+#uno {
+    position: static;
+    background-color: aqua;
+}
+/* relativo */
+#dos {
+    background-color: blueviolet;
+    position: relative;
+    bottom: 25px;
+    right: 150px;
+}
+
+/* fixed */
+#tres{
+    width: 150px;
+    height: 150px;
+    background-color: green;
+    position: fixed;
+    top: 300px;
+    left: 500px;
+    z-index: -2;
+}
+
+#cuatro {
+    background-color: rgb(149, 174, 193);
+    position: relative;
+}
+
+#cinco {
+    background-color: blueviolet;
+    position: absolute;
+    top: 50px;
+    left: 45px;
+}

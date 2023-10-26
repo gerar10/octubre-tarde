@@ -1,0 +1,28 @@
+body {
+  background-color: red;
+}
+
+img {
+  width: 900px;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+}
+
+h2{
+    font-size: 80px;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    background-color: blue;
+  }
+  img {
+    width: 410px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,20 @@
+body {
+    background-color: aqua;
+}
+
+input {
+    margin: 7px;
+}
+
+textarea {
+    margin: 7px;
+}
+
+form {
+    background-color: red;
+    width: 500px;
+    margin: 0 auto;
+    padding: 25px;
+    font-size: large;
+    border-radius: 5%;
+}

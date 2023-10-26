@@ -1,0 +1,25 @@
+body {
+  background-color: rgb(162, 197, 121);
+}
+
+h1 {
+  background-color: rgb(1, 106, 112);
+  width: 200px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+h3 {
+  background-color: rgb(210, 222, 50);
+}
+
+img {
+  width: 400px;
+  margin: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}

@@ -1,88 +1,83 @@
 body {
-    background-color: cornflowerblue;
-    font-size: 30px;
-    color: red;
-}
-
- h2 {
-    color: green;
-    font-size: 40px;
-    font-family: 'Lucida Sans';
-}
-
- li {
-    font-size: 30px;
-    color: blue;
-    font-weight: bold;
-}
-
-.primera {
-    color: blueviolet;
-    font-size: 45px;
-    font-weight: bold;
-}
-
-#prueba {
-    font-size: 50px;
-    color: chartreuse;
+  background-color: cornflowerblue;
+  font-size: 30px;
+  color: red;
 }
 
 h2 {
-    font-size: 50px;
-    color: violet;
- }
+  color: green;
+  font-size: 40px;
+  font-family: "Lucida Sans";
+}
+
+li {
+  font-size: 30px;
+  color: blue;
+  font-weight: bold;
+}
+
+.primera {
+  color: blueviolet;
+  font-size: 45px;
+  font-weight: bold;
+}
+
+#prueba {
+  font-size: 50px;
+  color: chartreuse;
+}
+
+h2 {
+  font-size: 50px;
+  color: violet;
+}
 
 #soyid {
-    color: coral;
+  color: coral;
 }
 
 span {
-    border: 4px solid black;
-    padding: 10px 50px 20px 5px;
-    margin: 10px;
+  border: 4px solid black;
+  padding: 10px 50px 20px 5px;
+  margin: 10px;
 }
-
 
 /* Pseudo Selectores */
 /* se activa cuando el mouse pasa por encima */
 h4:hover {
-    font-size: 90px;
-    color: green;
+  font-size: 90px;
+  color: green;
 }
 /* se activa cuando se hace click */
 button:active {
-    background-color: red;
-    height: 50px;
-    width: 200px;
+  background-color: red;
+  height: 50px;
+  width: 200px;
 }
 /* se activa cuando estamos en la etiqueta input  */
 input:focus {
-    background-color: orange;
-    height: 50px;
-    width: 300px;
+  background-color: orange;
+  height: 50px;
+  width: 300px;
 }
 
 p {
-    color: green;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 50%;
-    text-align: center;
-    text-decoration: underline;
-    text-transform: capitalize;
+  color: green;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 50%;
+  text-align: center;
+  text-decoration: underline;
+  text-transform: capitalize;
 }
 
 #hola {
-    background-color: orange;
-    width: 50%;
-    font-size: 50px;
+  background-color: orange;
+  width: 50%;
+  font-size: 50px;
 }
 
 #chau {
-    background-color: green;
-    width: 50%;
-    font-size: 2em;
+  background-color: green;
+  width: 50%;
+  font-size: 2em;
 }
-
-
-
-

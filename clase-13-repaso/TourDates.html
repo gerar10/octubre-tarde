@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/385479e3e1.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./TourDates.css" />
+    <title>The Rolling Stones</title>
+  </head>
+  <body>
+    <div>
+      <img
+        id="logo"
+        src="https://brandemia.org/contenido/subidas/2012/07/the-rolling-stones-logo.webp"
+        alt=""
+      />
+      <span id="welcome"> Hola </span>
+
+      &nbsp; &nbsp;
+      <i class="fa-solid fa-ticket"></i>
+    </div>
+
+    <h1>Tour y Fechas</h1>
+    <div class="event-container">
+      <ul class="event-list">
+        <li>
+          <span class="event-date"> Viernes 01 de Septiembre </span>
+          <span class="event-city"> Buenos Aires </span>
+          <button
+            id="BuenosAires"
+            onclick="getTickets(true, 'Buenos Aires')"
+            class="event-button"
+          >
+            Sold Out
+          </button>
+        </li>
+        <li>
+          <span class="event-date"> Viernes 08 de Septiembre </span>
+          <span class="event-city"> Cordoba </span>
+          <button
+            id="Cordoba"
+            onclick="getTickets(false, 'Cordoba')"
+            class="event-button"
+          >
+            Tickets
+          </button>
+        </li>
+        <li>
+          <span class="event-date"> Sabado 29 de Septiembre</span>
+          <span class="event-city"> Mendoza </span>
+          <button
+            id="Mendoza"
+            onclick="getTickets(true, 'Mendoza')"
+            class="event-button"
+          >
+            Tickets
+          </button>
+        </li>
+        <li>
+          <span class="event-date"> Domingo 30 de Septiembre</span>
+          <span class="event-city"> Jujuy</span>
+          <button id="Jujuy" onclick="getTickets(false, 'Jujuy')" class="event-button">
+            Tickets
+          </button>
+        </li>
+        <li>
+          <span class="event-date">Viernes 1 de Octubre </span>
+          <span class="event-city"> San Pablo </span>
+          <button
+            id="SanPablo"
+            onclick="getTickets(true, 'San Pablo')"
+            class="event-button"
+          >
+            Tickets
+          </button>
+        </li>
+      </ul>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>

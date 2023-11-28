@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./AddSong.css" />
+    <link rel="icon" href="../Imagenes/favicon.ico" />
+    <title>The Rolling Stones</title>
+  </head>
+  <body>
+    <div class="sidebar">
+      <div class="user-info">
+        <img
+          src="https://www.wradio.com.co/resizer/bpXjQ5Bq6ettJ9s4KiAO2BbGSZM=/650x488/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/prisaradioco/DYACMT645ZANNBULHWVXRZGVDQ.jpg"
+          alt="Avatar"
+        />
+        <p id="welcome"> </p>
+      </div>
+      <ul class="sidebar-menu">
+        <li><a href="../index.html">See other Albums </a></li>
+        <li><a href="../EditAlbum/EditAlbum.html"> Edit Album </a></li>
+        <li><a href="../AddSong/AddSong.html"> Add Songs </a></li>
+        <li id="logout">Log out</li>
+      </ul>
+    </div>
+
+    <div class="edit-album">
+      <h2>Add Songs</h2>
+
+      <div class="form-container">
+        <form>
+          <div class="form-group">
+            <label for="title">Title</label>
+            <input
+              type="text"
+              id="title"
+              name="title"
+              required
+              placeholder="Satisfaction"
+            />
+          </div>
+          <div class="form-group">
+            <label for="description"> Duration </label>
+            <input
+              type="text"
+              id="duration"
+              name="duration"
+              required
+              placeholder="3:54"
+            />
+          </div>
+          <div class="form-group">
+            <label for="link"> Add a Link </label>
+            <input
+              type="url"
+              id="link"
+              name="link"
+              required
+              placeholder="https://www.youtube.com/watch?v=fq-NsyKxDiI&list=RDfq-NsyKxDiI&start_radio=1"
+            />
+          </div>
+          <div class="button-group">
+            <button type="submit" class="edit-button" id="agregar">
+              Agregar
+            </button>
+            <a href="../index.html"
+              ><button type="button" class="cancel-button">Cancel</button></a
+            >
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./AddSong.js" type="module"></script>
+  </body>
+</html>

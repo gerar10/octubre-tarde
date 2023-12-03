@@ -1,0 +1,90 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  background-image: url(https://wallpaperset.com/w/full/d/6/4/34602.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+form {
+  margin-top: 10px;
+}
+
+h2 {
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  width: 20%;
+  background-color: #ffffff;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  margin-top: 16%;
+}
+
+p {
+  font-size: 15px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+p a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+p a:hover {
+  color: #0056b3;
+}
+
+/* La aplicacion aun no es responsive, aplicando las media query lo pueden hacer adaptativo para celulares u otros dispositivos */
+@media screen and (max-width: 600px) {
+  body {
+    background-image: url("https://i.pinimg.com/originals/e6/15/db/e615dbb93740372c98d75419ec0b6525.jpg");
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  #form-container {
+    margin-bottom: 25%;
+    width: 100%;
+    position: relative;
+    top: 370px;
+  }
+}

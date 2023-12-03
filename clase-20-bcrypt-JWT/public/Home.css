@@ -1,0 +1,109 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url("https://wallpaperset.com/w/full/1/f/5/34578.jpg");
+}
+
+.sidebar {
+  width: 250px;
+  height: 100%;
+  background-color: #333;
+  color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow-y: auto;
+}
+
+.user-info {
+  text-align: center;
+  padding: 20px 0;
+}
+
+h1 {
+  color: #fff;
+}
+
+h2 {
+  color: #fff;
+}
+
+.user-info img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.sidebar-menu {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar-menu li {
+  padding: 10px;
+  text-align: center;
+}
+
+.sidebar-menu a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  transition: 0.3s;
+}
+
+ul li:hover {
+  background-color: #555;
+  cursor: pointer;
+}
+
+.content {
+  margin-left: 250px;
+  padding: 20px;
+}
+
+.albums {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 70%px;
+  flex-wrap: wrap;
+  margin: 15px;
+}
+
+.albums-individual {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 70%px;
+  flex-wrap: wrap;
+  margin: 15px;
+}
+
+.albums img {
+  width: 300px;
+  height: 300px;
+  border: 6px solid #333;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.favoritos {
+  position: relative;
+  top: -280px;
+  right: 50px;
+  font-size: 24px;
+  color: blue;
+  background-color: white;
+  border-radius: 50%;
+  padding: 4px;
+}
+
+.trash {
+  color: white;
+  position: relative;
+  top: 145px;
+  right: 35px;
+  font-size: 24px;
+  cursor: pointer;
+}

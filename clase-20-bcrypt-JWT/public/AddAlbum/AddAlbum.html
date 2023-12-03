@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./AddAlbum.css" />
+    <link rel="icon" href="../Imagenes/favicon.ico" />
+    <title>The Rolling Stones</title>
+  </head>
+  <body>
+    <div class="sidebar">
+      <div class="user-info">
+        <img
+          src="https://www.wradio.com.co/resizer/bpXjQ5Bq6ettJ9s4KiAO2BbGSZM=/650x488/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/prisaradioco/DYACMT645ZANNBULHWVXRZGVDQ.jpg"
+          alt="Avatar"
+        />
+        <p> </p>
+      </div>
+      <ul class="sidebar-menu">
+        <li><a href="../index.html"> Other Albums </a></li>
+        <li><a href="../Login/index.html">Log out</a></li>
+      </ul>
+    </div>
+
+    <h2>Add Album</h2>
+
+    <div class="form-container">
+      <form>
+        <div class="form-group">
+          <label for="title">Title</label>
+          <input
+            type="text"
+            id="title"
+            name="title"
+            required
+            placeholder="The Rolling Stones No.2 (RU)"
+          />
+        </div>
+        <div class="form-group">
+          <label for="description">Description</label>
+          <textarea
+            id="description"
+            name="description"
+            required
+            placeholder="The Rolling Stones No.2 es el segundo álbum de estudio de la banda... "
+          ></textarea>
+        </div>
+        <div class="form-group">
+          <label for="anioLanzamiento"> Año de lanzamiento</label>
+          <input
+            type="number"
+            id="anioLanzamiento"
+            name="anioLanzamiento"
+            required
+            placeholder="1964"
+          />
+        </div>
+        <div class="form-group">
+          <label for="image">Add an image (URL)</label>
+          <input
+            type="url"
+            id="image"
+            name="image"
+            required
+            placeholder="https://media.pitchfork.com/photos/5929bfc.jpg"
+          />
+        </div>
+
+        <div class="button-group">
+          <button type="submit" class="add-button">Agragar</button>
+          <a href="../index.html"
+            ><button type="button" class="cancel-button">Cancel</button></a
+          >
+        </div>
+      </form>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./AddAlbum.js" type="module"></script>
+  </body>
+</html>
